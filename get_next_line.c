@@ -6,7 +6,7 @@
 /*   By: mababou <mababou@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:28:39 by mababou           #+#    #+#             */
-/*   Updated: 2022/03/11 17:32:57 by mababou          ###   ########.fr       */
+/*   Updated: 2023/03/06 14:32:37 by mababou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,22 +66,4 @@ char	*get_next_line(int fd)
 	}
 	return (output);
 }
-
-// int	main(int ac, char **av)
-// {
-// 	int		fd;
-// 	char	*line;
-
-// 	(void)ac;
-// 	fd = open(av[1], O_RDONLY);
-// 	close(fd);
-// 	line = get_next_line(fd);
-// 	while (line)
-// 	{
-// 		printf("%s", line);
-// 		free(line);
-// 		line = get_next_line(fd);
-// 	}
-// 	return (0);
-// }
 
